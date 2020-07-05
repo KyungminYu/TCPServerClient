@@ -23,27 +23,33 @@ namespace TcpClient
             InitializeComponent();
         }
 
-        private void connectButton_Click(object sender, EventArgs e)
+        private void sendButton_Click(object sender, EventArgs e)
         {
+
             String addr = this.ipAddress.Text;
             Int32 portNum = 13000;
-            if (int.TryParse(this.port.Text, out portNum)) {
+            if (int.TryParse(this.port.Text, out portNum))
+            {
                 endPoint = new IPEndPoint(IPAddress.Parse(addr), portNum);
                 socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-                try { 
+                try
+                {
                     socket.Connect(endPoint);
+                    String message = this.message.Text;
+                    String[] tokens = message.Split(' ');
+                    byte[] buffers = new byte[tokens.Length];
+                    for (int idx = 0; idx < tokens.Length; ++idx)
+                    {
+                        buffers[idx] = byte.Parse(tokens[idx]);
+                    }
+                    socket.Send(buffers);
+                    socket.Close();
                 }
                 catch (SocketException er)
                 {
                     return;
                 }
             }
-        }
-
-        private void sendButton_Click(object sender, EventArgs e)
-        {
-            String message = this.message.Text;
-            socket.Send(Encoding.ASCII.GetBytes(message));
         }
     }
 }

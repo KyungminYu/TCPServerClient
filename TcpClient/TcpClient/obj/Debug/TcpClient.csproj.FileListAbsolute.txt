@@ -8,3 +8,13 @@ C:\Users\ykmyo\source\repos\TcpClient\TcpClient\obj\Debug\TcpClient.csproj.Gener
 C:\Users\ykmyo\source\repos\TcpClient\TcpClient\obj\Debug\TcpClient.csproj.CoreCompileInputs.cache
 C:\Users\ykmyo\source\repos\TcpClient\TcpClient\obj\Debug\TcpClient.exe
 C:\Users\ykmyo\source\repos\TcpClient\TcpClient\obj\Debug\TcpClient.pdb
+C:\Users\ykmyo\Desktop\GitHub\TCPServerClient\TcpClient\TcpClient\obj\Debug\TcpClient.csprojAssemblyReference.cache
+C:\Users\ykmyo\Desktop\GitHub\TCPServerClient\TcpClient\TcpClient\obj\Debug\TcpClient.Form1.resources
+C:\Users\ykmyo\Desktop\GitHub\TCPServerClient\TcpClient\TcpClient\obj\Debug\TcpClient.Properties.Resources.resources
+C:\Users\ykmyo\Desktop\GitHub\TCPServerClient\TcpClient\TcpClient\obj\Debug\TcpClient.csproj.GenerateResource.cache
+C:\Users\ykmyo\Desktop\GitHub\TCPServerClient\TcpClient\TcpClient\obj\Debug\TcpClient.csproj.CoreCompileInputs.cache
+C:\Users\ykmyo\Desktop\GitHub\TCPServerClient\TcpClient\TcpClient\obj\Debug\TcpClient.exe
+C:\Users\ykmyo\Desktop\GitHub\TCPServerClient\TcpClient\TcpClient\obj\Debug\TcpClient.pdb
+C:\Users\ykmyo\Desktop\GitHub\TCPServerClient\TcpClient\TcpClient\bin\Debug\TcpClient.exe.config
+C:\Users\ykmyo\Desktop\GitHub\TCPServerClient\TcpClient\TcpClient\bin\Debug\TcpClient.exe
+C:\Users\ykmyo\Desktop\GitHub\TCPServerClient\TcpClient\TcpClient\bin\Debug\TcpClient.pdb
